@@ -61,3 +61,25 @@ hr {
     text-align: center;
 }
 
+/* RESPONSIVE STYLES */
+
+@media all and (max-width: 1290px) {
+    
+    body {
+        background-color: aquamarine;
+        /* padding: 0; */
+    }
+
+    #h1-block {
+        font-size: 14px;
+    }
+
+    img {
+        min-width: 100%;
+    }
+
+    #story-copy {
+        padding: 0;
+    }
+}
+
