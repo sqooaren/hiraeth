@@ -64,14 +64,15 @@ hr {
 /* RESPONSIVE STYLES */
 
 @media all and (max-width: 1290px) {
-    
-    body {
-        background-color: aquamarine;
-        /* padding: 0; */
-    }
 
     #h1-block {
-        font-size: 14px;
+        box-shadow: 5em 5em 30px #ffffff,
+            -5em 5em 30px #ffffff;
+        font-size: 12px;
+    }
+
+    .author-info {
+        margin-bottom: 50px;
     }
 
     img {
@@ -79,7 +80,13 @@ hr {
     }
 
     #story-copy {
+        margin: 100px 0 100px 0;
         padding: 0;
+    }
+
+    #end {
+        font-size: 30px;
+        margin-top: 75px;
     }
 }
 
